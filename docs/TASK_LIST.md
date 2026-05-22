@@ -44,3 +44,10 @@
 - [x] Verify dev server at localhost:5173
 - [x] Deploy to Vercel (`npx vercel --prod`)
 - [x] Allow auto-sync watcher to commit and push to GitHub
+
+## Phase 8: Scheduled Multi-Device Responsive & Rotation Audit (Post 9:00 PM IST Today)
+- [ ] Verify multi-device responsive design layout on iOS (Safari/Chrome viewport emulation)
+- [ ] Verify Android layout scaling (Chrome/Firefox viewport emulation)
+- [ ] Verify iPad & Tablet layout (both Portrait & Landscape for auto-rotation verification)
+- [ ] Verify Laptop/Desktop resolution ranges (1024px to 4K scaling support)
+- [ ] Perform simultaneous deployment verification on Vercel production edge, localhost, and GitHub
