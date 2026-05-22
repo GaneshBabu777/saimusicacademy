@@ -14,22 +14,6 @@ echo -e "\033[0m"
 echo -e "\033[1;36mSai Music Academy — GitHub Automated Push & Backup System\033[0m"
 echo "--------------------------------------------------------"
 echo "This script will link your project, create a GitHub repository,"
-20: echo "and push all code for backup and retrieval."
-21: echo ""
-22: 
-23: # Ensure we are in the correct directory
-24: cd "$(dirname "$0")"
-25: 
-26: # Check if gh CLI is logged in
-27: echo -e "\033[1;32m[1/3] Verifying GitHub CLI authentication...\033[0m"
-28: gh auth status >/dev/null 2>&1
-29: 
-30: if [ $? -ne 0 ]; then
-31:   echo -e "\033[1;31mError: You are not logged into GitHub CLI in this terminal.\033[0m"
-32:   echo "To authenticate, please run the following command in your terminal first:"
-33:   echo -e "   \033[1;33mgh auth login\033[0m"
-34:   echo "Select 'GitHub.com', choose 'HTTPS' or 'SSH', and authenticate via browser."
-35:   echo "Then, run this script again."
 echo "and push all code for backup and retrieval."
 echo ""
 
