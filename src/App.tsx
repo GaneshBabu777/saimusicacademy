@@ -642,7 +642,7 @@ function Hero({ navigate, openCheckout, user }: { navigate: (r: Route) => void; 
 
             {/* "music" on right, ordered first on mobile */}
             <h1
-              className="hero-title text-white font-medium text-[13vw] md:text-[8.5vw] xl:text-[8vw] md:text-right will-change-transform uppercase select-none leading-[0.9] tracking-tighter order-1 md:order-2"
+              className="hero-title text-shine-pro font-medium text-[13vw] md:text-[8.5vw] xl:text-[8vw] md:text-right will-change-transform uppercase select-none leading-[0.9] tracking-tighter order-1 md:order-2"
               style={getStyle(-0.25, 30)}
             >
               music
